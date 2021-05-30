@@ -1,3 +1,16 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+.header {
+    background-color: $title-color;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        color: $dark-grey;
+        font-size: 3rem;
+    }
+}

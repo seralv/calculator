@@ -1,8 +1,8 @@
 import '../styles/main.scss';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 const $app = document.getElementById( 'app' );
-const $h1 = document.createElement( 'h1' );
+$app.appendChild( Header() );
 
-$h1.textContent = 'Hello from javascript';
-
-$app.append( $h1 );
+$app.appendChild( Footer() );
