@@ -3,14 +3,14 @@
 // -----------------------------------------------------------------------------
 
 .header {
-    background-color: $title-color;
+    background-color: $yellow-back;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     
     h1 {
-        color: $dark-grey;
+        color: $dark-color;
         font-size: 3rem;
     }
 }

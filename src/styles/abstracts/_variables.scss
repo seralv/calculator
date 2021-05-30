@@ -16,35 +16,31 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 /// Title font family
 /// @type List
-$title-font-stack: 'Righteous', cursive;
+$title-font-stack: 'Squada One', cursive;
 
 
 
 
-
-/// Copy text color
+/// FIRST ALTERNATIVE COLOR
+/// Title color and button color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$dark-color: rgb(72, 91, 97) !default;
 
-/// Main brand color
+/// Alternative button color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$dark-color: rgb(129, 137, 108) !default;
 
-/// Light grey
+/// Yellow back
 /// @type Color
-$light-grey: rgb(237, 237, 237) !default;
+$yellow-back: rgb(255, 255, 68) !default;
 
 /// Medium grey
 /// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
+$mid-grey: rgb(244, 246, 241) !default;
 
-/// Dark grey
+/// Screen
 /// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
-/// Title color
-/// @type Color
-$title-color: rgb(21, 255, 0) !default;
+$screen-color: rgb(199, 196, 207) !default;
 
 
 

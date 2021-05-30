@@ -22,18 +22,18 @@ html {
 }
 
 body {
-  background-color: $dark-grey;
+  background-color: $yellow-back;
 }
 
 /**
  * Basic styles for links
  */
 a {
-  color: $brand-color;
+  color: $dark-color;
   text-decoration: none;
 
   @include on-event {
-    color: $text-color;
+    color: $dark-color;
     text-decoration: underline;
   }
 }
