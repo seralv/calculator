@@ -1,7 +1,8 @@
-import '../styles/index.scss';
+import '../styles/main.scss';
 
-if (process.env.NODE_ENV === 'development') {
-  require('../index.html');
-}
+const $app = document.getElementById( 'app' );
+const $h1 = document.createElement( 'h1' );
 
-console.log('webpack starterkit');
+$h1.textContent = 'Hello from javascript';
+
+$app.append( $h1 );
