@@ -3,9 +3,6 @@
 // -----------------------------------------------------------------------------
 
 
-
-
-
 /// Regular font family
 /// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
@@ -18,6 +15,9 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 /// @type List
 $title-font-stack: 'Squada One', cursive;
 
+/// Digital numbers
+/// @type List
+$digital-font-stack: 'Nova Square', cursive;
 
 
 
@@ -28,11 +28,11 @@ $dark-color: rgb(72, 91, 97) !default;
 
 /// Alternative button color
 /// @type Color
-$dark-color: rgb(129, 137, 108) !default;
+$mid-color: rgb(129, 137, 108) !default;
 
 /// Yellow back
 /// @type Color
-$yellow-back: rgb(255, 255, 68) !default;
+$yellow-back: rgb(255, 255, 146) !default;
 
 /// Medium grey
 /// @type Color
@@ -40,7 +40,11 @@ $mid-grey: rgb(244, 246, 241) !default;
 
 /// Screen
 /// @type Color
-$screen-color: rgb(199, 196, 207) !default;
+$screen-color: rgb(215, 242, 255) !default;
+
+/// Button ON
+/// @type Color
+$btn-on-color: rgb(255, 0, 0) !default;
 
 
 

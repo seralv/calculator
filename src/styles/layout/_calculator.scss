@@ -1,0 +1,123 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the calculator component.
+// -----------------------------------------------------------------------------
+.calculator {
+    margin: 0 auto;
+    max-width: 450px;
+    .top-frame {
+        margin: 0 auto;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $dark-color;
+
+        #screen {
+            box-sizing: border-box;
+            width: 100%;
+            margin: 20px 20px;
+            background-color: $screen-color;
+            border: 2px solid $mid-color;
+            display: flex;
+            justify-content: flex-end;
+            border-radius: 5px;
+
+            .text {
+                font-size: 3rem;
+                font-family: $digital-font-stack;
+            }
+        }
+    }
+    .bottom-frame {
+        margin: 0 auto;
+        background-color: $mid-grey;
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "btn-on btn-on  btn-off btn-div"
+            "btn-7  btn-8   btn-9   btn-mult"
+            "btn-4  btn-5   btn-6   btn-less"
+            "btn-1  btn-2   btn-3   btn-plus"
+            "btn-0  btn-dot btn-equal   btn-plus";
+    }
+
+    .btn-on {
+        grid-area: btn-on;
+    }
+    
+    .btn-off {
+        grid-area: btn-off;
+    }
+    
+    .btn-div {
+        grid-area: btn-div;
+    }
+    
+    .btn-7 {
+        grid-area: btn-7;
+    }
+    
+    .btn-8 {
+        grid-area: btn-8;
+    }
+    
+    .btn-9 {
+        grid-area: btn-9;
+    }
+    
+    .btn-mult {
+        grid-area: btn-mult;
+    }
+    
+    .btn-4 {
+        grid-area: btn-4;
+    }
+    
+    .btn-5 {
+        grid-area: btn-5;
+    }
+    
+    .btn-6 {
+        grid-area: btn-6;
+    }
+    
+    .btn-less {
+        grid-area: btn-less;
+    }
+    
+    .btn-1 {
+        grid-area: btn-1;
+    }
+    
+    .btn-2 {
+        grid-area: btn-2;
+    }
+    
+    .btn-3 {
+        grid-area: btn-3;
+    }
+    
+    .btn-plus {
+        grid-area: btn-plus;
+    }
+    
+    .btn-0 {
+        grid-area: btn-0;
+    }
+    
+    .btn-dot {
+        grid-area: btn-dot;
+    }
+    
+    .btn-equal {
+        grid-area: btn-equal;
+    }
+    
+    .btn-plus {
+        grid-area: btn-plus;
+    }
+}

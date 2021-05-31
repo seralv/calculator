@@ -4,13 +4,11 @@
 
 .header {
     background-color: $yellow-back;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     
     h1 {
         color: $dark-color;
-        font-size: 3rem;
+        font-size: 4rem;
+        font-family: 'Squada One';
     }
 }

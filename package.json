@@ -8,16 +8,17 @@
     "lint:styles": "stylelint src",
     "lint:scripts": "eslint src",
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
-    "start": "webpack serve --config webpack/webpack.config.dev.js"
+    "start": "webpack serve --config webpack/webpack.config.dev.js --open"
   },
   "keywords": [
+    "calculator",
     "webpack",
+    "SASS",
     "startkit",
     "frontend",
     "es6",
     "javascript",
-    "webdev",
-    "calculator"
+    "webdev"
   ],
   "author": "seralv",
   "license": "MIT",
@@ -40,9 +41,10 @@
     "mini-css-extract-plugin": "^1.6.0",
     "node-sass": "^5.0.0",
     "postcss-loader": "^4.3.0",
+    "resolve-url-loader": "^4.0.0",
     "sass-loader": "^10.2.0",
     "style-loader": "^2.0.0",
-    "stylelint": "^13.13.1",
+    "stylelint": "^9.3.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-webpack-plugin": "^2.1.1",
     "webpack": "^5.38.1",
