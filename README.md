@@ -1,6 +1,6 @@
 # Webpack Frontend Calculator
 
-Calculator project
+Calculator project with webpack and SASS pattern 7-1
 
 ### Installation
 
