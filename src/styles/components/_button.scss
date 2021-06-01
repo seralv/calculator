@@ -2,26 +2,41 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 .bottom-frame {
-    div {
-        font-size: 1.5rem;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $mid-grey;
-        border-radius: 10px;
-    }
+  div {
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $mid-grey;
+    border-radius: 10px;
+  }
 
-    .btn-on {
-        background-color: $btn-on-color;
-        font-weight: bold;
-    }
-    
-    .btn-off, .btn-div, .btn-mult, .btn-less, .btn-plus, .btn-dot, .btn-equal {
-        background-color: $dark-color;
-    }
-    
-    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9, .btn-0 {
-        background-color: $mid-color;
-    }
+  .btn-on {
+    background-color: $btn-on-color;
+    font-weight: bold;
+  }
+
+  .btn-off,
+  .btn-div,
+  .btn-mult,
+  .btn-less,
+  .btn-plus,
+  .btn-dot,
+  .btn-equal {
+    background-color: $dark-color;
+  }
+
+  .btn-1,
+  .btn-2,
+  .btn-3,
+  .btn-4,
+  .btn-5,
+  .btn-6,
+  .btn-7,
+  .btn-8,
+  .btn-9,
+  .btn-0 {
+    background-color: $mid-color;
+  }
 }

@@ -2,7 +2,6 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-
 /// Regular font family
 /// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
@@ -18,8 +17,6 @@ $title-font-stack: 'Squada One', cursive;
 /// Digital numbers
 /// @type List
 $digital-font-stack: 'Nova Square', cursive;
-
-
 
 /// FIRST ALTERNATIVE COLOR
 /// Title color and button color
@@ -46,17 +43,9 @@ $screen-color: rgb(215, 242, 255) !default;
 /// @type Color
 $btn-on-color: rgb(255, 0, 0) !default;
 
-
-
-
-
 /// Container's maximum width
 /// @type Length
 $max-width: 1180px !default;
-
-
-
-
 
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
@@ -66,11 +55,6 @@ $breakpoints: (
   'medium': 768px,
   'large': 1024px,
 ) !default;
-
-
-
-
-
 
 /// Relative or absolute URL where all assets are served from
 /// @type String
