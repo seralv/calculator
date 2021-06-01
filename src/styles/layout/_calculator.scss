@@ -18,14 +18,10 @@
             margin: 20px 20px;
             background-color: $screen-color;
             border: 2px solid $mid-color;
-            display: flex;
-            justify-content: flex-end;
+            text-align: right;
             border-radius: 5px;
-
-            .text {
-                font-size: 3rem;
-                font-family: $digital-font-stack;
-            }
+            font-family: $digital-font-stack;
+            font-size: 3rem;
         }
     }
     .bottom-frame {

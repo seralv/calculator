@@ -1,11 +1,10 @@
 export default function calculator() {
     const $div = document.createElement( 'div' );
     const numbers = [0,1,2,3,4,5,6,7,8,9];
+    
     $div.innerHTML =`
     <div class="top-frame">
-        <input type="text" id="screen">
-            <div class="text">62345678</div>
-        </input>
+        <input type="text" id="screen" value="0" />
     </div>
     <div class="bottom-frame">
         <div class="btn-on">
