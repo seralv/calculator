@@ -9,3 +9,9 @@ $app.appendChild( Header() );
 $app.appendChild( Calculator() );
 
 $app.appendChild( Footer() );
+
+const btn1 = document.getElementsByClassName( 'btn-1' );
+const screen = document.getElementById( 'screen' );
+btn1.addEventListener(('click'), () => {
+    screen.innerText = 1;
+});
